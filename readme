@@ -1,0 +1,29 @@
+# Author: Jeremiah E. Ochepo
+# Last Edited: 2/15/2020 (7PM)
+# Description: Check if the given sides can form a triangle.
+
+## Program Description:
+This Python program prompts the user to enter three side lengths and checks if they can form a triangle. It utilizes a function `is_triangle` to perform the check.
+
+## Usage:
+1. Run the program.
+2. Enter side lengths when prompted.
+3. The program will inform you if the entered values can form a triangle or not.
+4. Choose to check another triangle (T) or quit (Q).
+
+## Function:
+### `is_triangle(side1, side2, side3)`
+- Checks if the given sides can form a triangle.
+- Parameters:
+  - `side1, side2, side3`: Lengths of the sides.
+- Returns:
+  - `True` if the sides can form a triangle, `False` otherwise.
+
+### `triangle_checker()`
+- Main function to prompt the user and execute the triangle check.
+
+## Notes:
+- If an invalid entry is made, the program provides an error message and allows the user to try again.
+- The user can choose to check another triangle or exit the program.
+
+Feel free to reach out for any additional information or assistance!
